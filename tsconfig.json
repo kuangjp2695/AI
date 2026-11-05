@@ -32,6 +32,6 @@
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true
   },
-  "include": ["src/**/*", "tests/**/*"],
-  "exclude": ["node_modules", "dist", "mcp-server"]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist", "mcp-server", "tests"]
 }

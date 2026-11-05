@@ -8,7 +8,7 @@ import { InMemoryTaskRepository } from '../models/in-memory-task.repository'
 import { TaskService } from '../services/task.service'
 
 // 仓储层
-const taskRepository = InMemoryTaskRepository
+const taskRepository = new InMemoryTaskRepository()
 
 // 服务层
 const taskService = new TaskService(taskRepository)
