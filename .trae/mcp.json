@@ -1,0 +1,21 @@
+{
+  "mcpServers": {
+    "task-tools": {
+      "command": "node",
+      "args": [
+        "${workspaceFolder}/mcp-server/dist/index.js"
+      ],
+      "env": {
+        "NODE_ENV": "development"
+      }
+    },
+    "filesystem": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "${workspaceFolder}"
+      ]
+    }
+  }
+}
